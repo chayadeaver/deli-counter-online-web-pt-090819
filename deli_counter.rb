@@ -4,11 +4,11 @@ def line(array)
   elsif
     # phrase =  "The line is currently:"
     array.each_with_index do |value, index|
-      new_index = index + 1
+      # new_index = index + 1
       # phrase = phrase + " #{new_index}. #{value}"
-      "The line is currently: #{new_index}. #{value}"
+      "The line is currently: #{index + 1}. #{value}"
     end
-    puts "The line is currently: #{new_index}. #{value}"
+    puts "The line is currently: #{index + 1}. #{value}"
   end
 end
 
