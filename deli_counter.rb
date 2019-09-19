@@ -6,9 +6,9 @@ def line(array)
     array.each_with_index do |value, index|
       new_index = index + 1
       # phrase = phrase + " #{new_index}. #{value}"
-      phrase = "The line is currently: #{new_index}. #{value}"
+      "The line is currently: #{new_index}. #{value}"
     end
-    puts phrase
+    puts "The line is currently: #{new_index}. #{value}"
   end
 end
 
