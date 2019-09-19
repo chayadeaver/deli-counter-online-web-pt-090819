@@ -2,13 +2,12 @@ def line(array)
   if array.length == 0
     puts "The line is currently empty."
   elsif
-    # phrase =  "The line is currently:"
+    phrase =  "The line is currently:"
     array.each_with_index do |value, index|
-      # new_index = index + 1
-      # phrase = phrase + " #{new_index}. #{value}"
-      "The line is currently: #{index + 1}. #{value}"
+      new_index = index + 1
+      phrase = phrase + " #{new_index}. #{value}"
     end
-    puts "The line is currently: #{index + 1}. #{value}"
+    puts phrase
   end
 end
 
